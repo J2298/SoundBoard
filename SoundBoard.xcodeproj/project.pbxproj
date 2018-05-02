@@ -13,6 +13,7 @@
 		CAFA5D24209A46FB0055ED1A /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAFA5D22209A46FB0055ED1A /* SoundBoard.xcdatamodeld */; };
 		CAFA5D26209A46FB0055ED1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFA5D25209A46FB0055ED1A /* Assets.xcassets */; };
 		CAFA5D29209A46FB0055ED1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFA5D27209A46FB0055ED1A /* LaunchScreen.storyboard */; };
+		CAFA5D31209A4CE80055ED1A /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA5D30209A4CE80055ED1A /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CAFA5D25209A46FB0055ED1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFA5D28209A46FB0055ED1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAFA5D2A209A46FB0055ED1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFA5D30209A4CE80055ED1A /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				CAFA5D27209A46FB0055ED1A /* LaunchScreen.storyboard */,
 				CAFA5D2A209A46FB0055ED1A /* Info.plist */,
 				CAFA5D22209A46FB0055ED1A /* SoundBoard.xcdatamodeld */,
+				CAFA5D30209A4CE80055ED1A /* SoundViewController.swift */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFA5D31209A4CE80055ED1A /* SoundViewController.swift in Sources */,
 				CAFA5D24209A46FB0055ED1A /* SoundBoard.xcdatamodeld in Sources */,
 				CAFA5D1E209A46FB0055ED1A /* ViewController.swift in Sources */,
 				CAFA5D1C209A46FB0055ED1A /* AppDelegate.swift in Sources */,
@@ -282,7 +286,7 @@
 				DEVELOPMENT_TEAM = 62DH7VA498;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard.identifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,7 +301,7 @@
 				DEVELOPMENT_TEAM = 62DH7VA498;
 				INFOPLIST_FILE = SoundBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.SoundBoard.identifier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
